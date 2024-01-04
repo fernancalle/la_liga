@@ -34,8 +34,8 @@ def load_csv_to_db(csv_file_path, db_file_path, season):
     conn.close()
 
 # Paths to the CSV files
-csv_file_1 = '/Users/fernandocalle/Desktop/portfolio/la_liga/laliga_22_23.csv'
-csv_file_2 = '/Users/fernandocalle/Desktop/portfolio/la_liga/laliga_23_24.csv'
+csv_file_1 = 'laliga_22_23.csv'
+csv_file_2 = 'laliga_23_24.csv'
 
 # Database file path
 db_file = 'spanish_la_liga.db'
