@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/fernancalle/portfolio/blob/main/assets/img/laligalogo.png?raw=true" width="200" height="200" alt="La Liga Logo">
+</p>
+
 # La Liga Football Matches Analysis
 
 ## Project Overview
