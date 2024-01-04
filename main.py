@@ -7,8 +7,8 @@ import joblib
 app = FastAPI()
 
 # Load the trained model and label encoder
-model = joblib.load('/Users/fernandocalle/Desktop/portfolio/la_liga/real_madrid_model.pkl')
-encoder = joblib.load('/Users/fernandocalle/Desktop/portfolio/la_liga/team_name_encoder.pkl')
+model = joblib.load('real_madrid_model.pkl')
+encoder = joblib.load('team_name_encoder.pkl')
 
 class MatchInfo(BaseModel):
     HomeTeam: str
